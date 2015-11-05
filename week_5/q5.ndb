@@ -1,0 +1,141 @@
+NDB006
+The number of symbol table entries is: 9
+The length of the symbol table is: 269
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|fourbit:level0|fulladd:stage0|
+N	|fourbit:level0|fulladd:stage1|
+n	|fourbit:level0|fulladd:stage2|
+"0	|fourbit:level0|fulladd:stage3|
+"P	|fourbit:level1|fulladd:stage0|
+"p	|fourbit:level1|fulladd:stage1|
+#2	|fourbit:level1|fulladd:stage2|
+#R	|fourbit:level1|fulladd:stage3|
+
+The number of name info structs is : 121
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	30	0	:14	|
+#	IeEA	!	30	0	:15	}
+$	IeEA	!	30	0	:16	~
+%	IeEA	!	30	0	:17	"!
+&	IeEA	!	26	0	:18	""
+'	IeEA	!	27	0	:19	"#
+(	IeEA	!	28	0	:20	"$
+)	IeEA	!	31	0	:21	"%
+*	IeEA	!	31	0	:22	"&
++	IeEA	!	31	0	:23	"'
+,	IeEA	!	31	0	:24	"(
+-	IeEA	!	32	0	:25	")
+.	IeEA	!	32	0	:26	"*
+/	IeEA	!	32	0	:27	"+
+0	IeEA	!	32	0	:28	",
+1	IeEA	!	33	0	:29	"-
+2	IeEA	!	33	0	:30	".
+3	IeEA	!	33	0	:31	"/
+4	IeEA	!	33	0	:32	"0
+5	"?%_n	!	20	0	20	=	x	y	z	{	|	"(	")	"*	"+	",	"-	"7	"8	"9	":	";	>	?	A	a0	!	a0	r
+6	"?%_n	!	20	0	18	=	x	y	z	"(	")	"*	"+	",	"-	"7	"8	"9	":	";	"<	?	A	a1	!	a1	q
+7	"?%_n	!	20	0	20	=	x	y	z	|	"(	")	"*	"+	",	"-	"7	"8	"9	":	";	"<	?	@	A	a2	!	a2	p
+8	"?%_n	!	20	0	19	=	x	y	z	{	"(	")	"*	"+	",	"-	"7	"8	"9	":	";	"<	?	A	a3	!	a3	o
+9	"?%_n	!	20	0	20	=	x	y	z	{	|	"(	")	"*	"+	",	"7	"8	"9	":	";	"<	>	?	A	b0	!	b0	v
+:	"?%_n	!	20	0	20	=	x	y	z	{	|	"(	")	"*	"+	",	"-	"7	"8	"9	":	";	"<	?	A	b1	!	b1	u
+;	"?%_n	!	20	0	19	=	x	y	z	|	"(	")	"*	"+	",	"-	"7	"8	"9	":	";	"<	?	A	b2	!	b2	t
+<	"?%_n	!	20	0	19	=	x	y	z	{	"(	")	"*	"+	",	"-	"7	"8	"9	":	";	"<	?	A	b3	!	b3	s
+=	Nj's	!	22	0	6	carry	{
+>	"<R?c	!	21	0	total0	!	total0	z
+?	"F[b5	!	21	0	1	1	total1	!	total1	y
+@	"<R?c	!	21	0	total2	!	total2	x
+A	"F[b5	!	21	0	1	1	total3	!	total3	w
+B	IeEA	.	16	0	:10	#-
+C	IeEA	.	16	0	:11	#.
+D	IeEA	.	16	0	:12	#/
+E	IeEA	.	16	0	:13	#0
+F	IeEA	.	16	0	:14	#1
+G	IeEA	.	15	0	:6	#)
+H	IeEA	.	15	0	:7	#*
+I	IeEA	.	15	0	:8	#+
+J	IeEA	.	16	0	:9	#,
+K	IeEA	N	16	0	:10	#@
+L	IeEA	N	16	0	:11	#A
+M	IeEA	N	16	0	:12	#B
+N	IeEA	N	16	0	:13	#C
+O	IeEA	N	16	0	:14	#D
+P	IeEA	N	15	0	:6	#<
+Q	IeEA	N	15	0	:7	#=
+R	IeEA	N	15	0	:8	#>
+S	IeEA	N	16	0	:9	#?
+T	IeEA	n	16	0	:10	#R
+U	IeEA	n	16	0	:11	#S
+V	IeEA	n	16	0	:12	#T
+W	IeEA	n	16	0	:13	#U
+X	IeEA	n	16	0	:14	#V
+Y	IeEA	n	15	0	:6	#N
+Z	IeEA	n	15	0	:7	#O
+[	IeEA	n	15	0	:8	#P
+\	IeEA	n	16	0	:9	#Q
+]	IeEA	"0	16	0	:10	#d
+^	IeEA	"0	16	0	:11	#e
+_	IeEA	"0	16	0	:12	#f
+`	IeEA	"0	16	0	:13	#g
+a	IeEA	"0	16	0	:14	#h
+b	IeEA	"0	15	0	:6	#`
+c	IeEA	"0	15	0	:7	#a
+d	IeEA	"0	15	0	:8	#b
+e	IeEA	"0	16	0	:9	#c
+f	IeEA	"P	16	0	:10	$D
+g	IeEA	"P	16	0	:11	$E
+h	IeEA	"P	16	0	:12	$F
+i	IeEA	"P	16	0	:13	$G
+j	IeEA	"P	16	0	:14	$H
+k	IeEA	"P	15	0	:6	$@
+l	IeEA	"P	15	0	:7	$A
+m	IeEA	"P	15	0	:8	$B
+n	IeEA	"P	16	0	:9	$C
+o	IeEA	"p	16	0	:10	$V
+p	IeEA	"p	16	0	:11	$W
+q	IeEA	"p	16	0	:12	$X
+r	IeEA	"p	16	0	:13	$Y
+s	IeEA	"p	16	0	:14	$Z
+t	IeEA	"p	15	0	:6	$R
+u	IeEA	"p	15	0	:7	$S
+v	IeEA	"p	15	0	:8	$T
+w	IeEA	"p	16	0	:9	$U
+x	Q<Im	"p	15	0	1	?	1	~8~1	'f
+y	Q<Im	"p	15	0	1	?	1	~8~2	'j
+z	Q<Im	"p	15	0	1	?	1	~8~3	'z
+{	L7gU	"p	15	0	1	?	~8~4	((
+|	L7gU	"p	15	0	2	?	@	~8~5	(,
+}	IeEA	#2	16	0	:10	$h
+~	IeEA	#2	16	0	:11	$i
+"!	IeEA	#2	16	0	:12	$j
+""	IeEA	#2	16	0	:13	$k
+"#	IeEA	#2	16	0	:14	$l
+"$	IeEA	#2	15	0	:6	$d
+"%	IeEA	#2	15	0	:7	$e
+"&	IeEA	#2	15	0	:8	$f
+"'	IeEA	#2	16	0	:9	$g
+"(	Q<Im	#2	15	0	1	@	1	~8~1	'Z
+")	Q<Im	#2	15	0	1	@	1	~8~2	'^
+"*	Q<Im	#2	15	0	1	@	1	~8~3	'b
+"+	Q<Im	#2	15	0	1	@	1	~8~4	'r
+",	Q<Im	#2	15	0	1	@	1	~8~5	'~
+"-	L7gU	#2	15	0	1	@	~8~6	(0
+".	IeEA	#R	16	0	:10	$z
+"/	IeEA	#R	16	0	:11	${
+"0	IeEA	#R	16	0	:12	$|
+"1	IeEA	#R	16	0	:13	$}
+"2	IeEA	#R	16	0	:14	$~
+"3	IeEA	#R	15	0	:6	$v
+"4	IeEA	#R	15	0	:7	$w
+"5	IeEA	#R	15	0	:8	$x
+"6	IeEA	#R	16	0	:9	$y
+"7	Q<Im	#R	15	0	1	A	1	~8~1	'N
+"8	Q<Im	#R	15	0	1	A	1	~8~2	'R
+"9	Q<Im	#R	15	0	1	A	1	~8~3	'V
+":	Q<Im	#R	15	0	1	A	1	~8~4	'n
+";	Q<Im	#R	15	0	1	A	1	~8~5	'v
+"<	L7gU	#R	15	0	1	A	~8~6	($

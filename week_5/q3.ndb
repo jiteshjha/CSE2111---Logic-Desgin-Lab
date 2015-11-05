@@ -1,0 +1,84 @@
+NDB006
+The number of symbol table entries is: 5
+The length of the symbol table is: 81
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|fulladd:stage0|
+?	|fulladd:stage1|
+P	|fulladd:stage2|
+a	|fulladd:stage3|
+
+The number of name info structs is : 68
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	7	0	:15	}
+#	IeEA	!	8	0	:16	~
+$	IeEA	!	9	0	:17	"!
+%	IeEA	!	10	0	:18	""
+&	L8ef	!	2	0	16	'	F	P	Q	b	c	d	e	[	\	^	_	`	a	*	+	cin	o
+'	Nj's	!	5	0	1	cout	|
+(	"<R?c	!	4	0	s0	!	s0	{
+)	"AW!{	!	4	0	1	s1	!	s1	z
+*	"AW!{	!	4	0	2	s2	!	s2	y
++	"AW!{	!	4	0	2	s3	!	s3	x
+,	"?%_n	!	3	0	12	'	F	P	b	c	d	[	]	^	_	`	(	x0	!	x0	s
+-	"?%_n	!	3	0	14	'	F	P	b	c	d	[	\	]	^	_	`	)	*	x1	!	x1	r
+.	"?%_n	!	3	0	13	'	Q	b	c	d	[	\	]	^	_	`	a	+	x2	!	x2	q
+/	"?%_n	!	3	0	8	'	e	[	\	]	^	`	a	x3	!	x3	p
+0	"?%_n	!	3	0	14	'	F	P	b	c	d	[	\	]	^	_	(	)	*	y0	!	y0	w
+1	"?%_n	!	3	0	14	'	F	P	b	c	d	[	\	]	^	_	`	)	*	y1	!	y1	v
+2	"?%_n	!	3	0	12	'	Q	b	c	d	[	]	^	_	`	a	+	y2	!	y2	u
+3	"?%_n	!	3	0	9	'	e	[	\	]	^	_	`	a	y3	!	y3	t
+4	IeEA	.	22	0	:10	"L
+5	IeEA	.	22	0	:11	"M
+6	IeEA	.	22	0	:12	"N
+7	IeEA	.	22	0	:13	"O
+8	IeEA	.	22	0	:14	"P
+9	IeEA	.	21	0	:6	"H
+:	IeEA	.	21	0	:7	"I
+;	IeEA	.	21	0	:8	"J
+<	IeEA	.	22	0	:9	"K
+=	IeEA	?	22	0	:10	"_
+>	IeEA	?	22	0	:11	"`
+?	IeEA	?	22	0	:12	"a
+@	IeEA	?	22	0	:13	"b
+A	IeEA	?	22	0	:14	"c
+B	IeEA	?	21	0	:6	"[
+C	IeEA	?	21	0	:7	"\
+D	IeEA	?	21	0	:8	"]
+E	IeEA	?	22	0	:9	"^
+F	Q<Im	?	21	0	1	)	1	~8~1	&c
+G	IeEA	P	22	0	:10	"q
+H	IeEA	P	22	0	:11	"r
+I	IeEA	P	22	0	:12	"s
+J	IeEA	P	22	0	:13	"t
+K	IeEA	P	22	0	:14	"u
+L	IeEA	P	21	0	:6	"m
+M	IeEA	P	21	0	:7	"n
+N	IeEA	P	21	0	:8	"o
+O	IeEA	P	22	0	:9	"p
+P	Q<Im	P	21	0	1	*	1	~8~1	&[
+Q	L7gU	P	21	0	1	*	~8~2	&g
+R	IeEA	a	22	0	:10	#%
+S	IeEA	a	22	0	:11	#&
+T	IeEA	a	22	0	:12	#'
+U	IeEA	a	22	0	:13	#(
+V	IeEA	a	22	0	:14	#)
+W	IeEA	a	21	0	:6	#!
+X	IeEA	a	21	0	:7	#"
+Y	IeEA	a	21	0	:8	##
+Z	IeEA	a	22	0	:9	#$
+[	Q<Im	a	22	0	1	'	1	~14~1	&?
+\	Q<Im	a	22	0	1	'	1	~14~2	&C
+]	Q<Im	a	22	0	1	'	1	~14~3	&G
+^	Q<Im	a	22	0	1	'	1	~14~4	&K
+_	Q<Im	a	22	0	1	'	1	~14~5	&O
+`	Q<Im	a	22	0	1	'	1	~14~6	&W
+a	L7gU	a	22	0	1	'	~14~7	&o
+b	Q<Im	a	21	0	1	+	1	~8~1	&;
+c	Q<Im	a	21	0	1	+	1	~8~2	&S
+d	Q<Im	a	21	0	1	+	1	~8~3	&_
+e	L7gU	a	21	0	1	+	~8~4	&k

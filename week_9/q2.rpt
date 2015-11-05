@@ -1,0 +1,529 @@
+Project Information                       c:\student\cse_b_b1_17\week_9\q2.rpt
+
+MAX+plus II Compiler Report File
+Version 10.2 07/10/2002
+Compiled: 10/13/2015 15:43:57
+
+Copyright (C) 1988-2002 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+q2        EPM7032LC44-6    4        3        0      19      0           59 %
+
+User Pins:                 4        3        0  
+
+
+
+Project Information                       c:\student\cse_b_b1_17\week_9\q2.rpt
+
+** FILE HIERARCHY **
+
+
+
+|dec3_8:s0|
+
+
+Device-Specific Information:              c:\student\cse_b_b1_17\week_9\q2.rpt
+q2
+
+***** Logic for device 'q2' compiled without errors.
+
+
+
+
+Device: EPM7032LC44-6
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+
+                                         R  R  
+                                         E  E  
+                                         S  S  
+                                         E  E  
+                                         R  R  
+                       V  G  G  G  G  G  V  V  
+                    e  C  N  N  N  N  N  E  E  
+              y  z  n  C  D  D  D  D  D  D  D  
+            -----------------------------------_ 
+          /   6  5  4  3  2  1 44 43 42 41 40   | 
+       x |  7                                39 | RESERVED 
+      f2 |  8                                38 | f1 
+RESERVED |  9                                37 | f3 
+     GND | 10                                36 | RESERVED 
+RESERVED | 11                                35 | VCC 
+RESERVED | 12         EPM7032LC44-6          34 | RESERVED 
+RESERVED | 13                                33 | RESERVED 
+RESERVED | 14                                32 | RESERVED 
+     VCC | 15                                31 | RESERVED 
+RESERVED | 16                                30 | GND 
+RESERVED | 17                                29 | RESERVED 
+         |_  18 19 20 21 22 23 24 25 26 27 28  _| 
+           ------------------------------------ 
+              R  R  R  R  G  V  R  R  R  R  R  
+              E  E  E  E  N  C  E  E  E  E  E  
+              S  S  S  S  D  C  S  S  S  S  S  
+              E  E  E  E        E  E  E  E  E  
+              R  R  R  R        R  R  R  R  R  
+              V  V  V  V        V  V  V  V  V  
+              E  E  E  E        E  E  E  E  E  
+              D  D  D  D        D  D  D  D  D  
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCC = Dedicated power pin, which MUST be connected to VCC.
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:              c:\student\cse_b_b1_17\week_9\q2.rpt
+q2
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     4/16( 25%)   5/16( 31%)   0/16(  0%)   4/36( 11%) 
+B:    LC17 - LC32    15/16( 93%)   2/16( 12%)   0/16(  0%)  17/36( 47%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                             7/32     ( 21%)
+Total logic cells used:                         19/32     ( 59%)
+Total shareable expanders used:                  0/32     (  0%)
+Total Turbo logic cells used:                   19/32     ( 59%)
+Total shareable expanders not available (n/a):   0/32     (  0%)
+Average fan-in:                                  3.57
+Total fan-in:                                    68
+
+Total input pins required:                       4
+Total output pins required:                      3
+Total bidirectional pins required:               0
+Total logic cells required:                     19
+Total flipflops required:                        0
+Total product terms required:                   30
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:           0
+
+Synthesized logic cells:                        16/  32   ( 50%)
+
+
+
+Device-Specific Information:              c:\student\cse_b_b1_17\week_9\q2.rpt
+q2
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   4    (1)  (A)      INPUT               0      0   0    0    0    3   16  en
+   7    (4)  (A)      INPUT               0      0   0    0    0    0    8  x
+   6    (3)  (A)      INPUT               0      0   0    0    0    0    8  y
+   5    (2)  (A)      INPUT               0      0   0    0    0    0    8  z
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:              c:\student\cse_b_b1_17\week_9\q2.rpt
+q2
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  38     20    B     OUTPUT      t        0      0   0    1    3    0    0  f1
+   8      5    A     OUTPUT      t        0      0   0    1    3    0    0  f2
+  37     21    B     OUTPUT      t        0      0   0    1    3    0    0  f3
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:              c:\student\cse_b_b1_17\week_9\q2.rpt
+q2
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (25)    31    B       SOFT    s t        0      0   0    4    1    1    1  |dec3_8:s0|~281~1
+ (36)    22    B       SOFT    s t        0      0   0    4    1    1    1  |dec3_8:s0|~282~1
+ (32)    25    B       SOFT    s t        0      0   0    4    1    1    1  |dec3_8:s0|~283~1
+ (27)    29    B       SOFT    s t        0      0   0    4    1    1    1  |dec3_8:s0|~284~1
+ (26)    30    B       SOFT    s t        0      0   0    4    1    1    1  |dec3_8:s0|~285~1
+ (24)    32    B       SOFT    s t        0      0   0    4    1    1    1  |dec3_8:s0|~286~1
+ (34)    23    B       SOFT    s t        0      0   0    4    1    1    1  |dec3_8:s0|~287~1
+ (33)    24    B       SOFT    s t        0      0   0    4    1    1    1  |dec3_8:s0|~288~1
+ (31)    26    B      LCELL    s t        0      0   0    1    1    0    1  |dec3_8:s0|~289~1
+ (29)    27    B      LCELL    s t        0      0   0    1    1    0    1  |dec3_8:s0|~290~1
+ (11)     7    A      LCELL    s t        0      0   0    1    1    0    1  |dec3_8:s0|~291~1
+  (9)     6    A      LCELL    s t        0      0   0    1    1    0    1  |dec3_8:s0|~292~1
+  (7)     4    A      LCELL    s t        0      0   0    1    1    0    1  |dec3_8:s0|~293~1
+ (41)    17    B      LCELL    s t        0      0   0    1    1    0    1  |dec3_8:s0|~294~1
+ (40)    18    B      LCELL    s t        0      0   0    1    1    0    1  |dec3_8:s0|~295~1
+ (39)    19    B      LCELL    s t        0      0   0    1    1    1    1  |dec3_8:s0|~296~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:              c:\student\cse_b_b1_17\week_9\q2.rpt
+q2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+                 Logic cells placed in LAB 'A'
+        +------- LC7 |dec3_8:s0|~291~1
+        | +----- LC6 |dec3_8:s0|~292~1
+        | | +--- LC4 |dec3_8:s0|~293~1
+        | | | +- LC5 f2
+        | | | | 
+        | | | |   Other LABs fed by signals
+        | | | |   that feed LAB 'A'
+LC      | | | | | A B |     Logic cells that feed LAB 'A':
+
+Pin
+4    -> * * * * | * * | <-- en
+LC25 -> * - - * | * - | <-- |dec3_8:s0|~283~1
+LC29 -> - * - * | * - | <-- |dec3_8:s0|~284~1
+LC30 -> - - * * | * - | <-- |dec3_8:s0|~285~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:              c:\student\cse_b_b1_17\week_9\q2.rpt
+q2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                       Logic cells placed in LAB 'B'
+        +----------------------------- LC31 |dec3_8:s0|~281~1
+        | +--------------------------- LC22 |dec3_8:s0|~282~1
+        | | +------------------------- LC25 |dec3_8:s0|~283~1
+        | | | +----------------------- LC29 |dec3_8:s0|~284~1
+        | | | | +--------------------- LC30 |dec3_8:s0|~285~1
+        | | | | | +------------------- LC32 |dec3_8:s0|~286~1
+        | | | | | | +----------------- LC23 |dec3_8:s0|~287~1
+        | | | | | | | +--------------- LC24 |dec3_8:s0|~288~1
+        | | | | | | | | +------------- LC26 |dec3_8:s0|~289~1
+        | | | | | | | | | +----------- LC27 |dec3_8:s0|~290~1
+        | | | | | | | | | | +--------- LC17 |dec3_8:s0|~294~1
+        | | | | | | | | | | | +------- LC18 |dec3_8:s0|~295~1
+        | | | | | | | | | | | | +----- LC19 |dec3_8:s0|~296~1
+        | | | | | | | | | | | | | +--- LC20 f1
+        | | | | | | | | | | | | | | +- LC21 f3
+        | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | | | | A B |     Logic cells that feed LAB 'B':
+LC31 -> - - - - - - - - * - - - - * - | - * | <-- |dec3_8:s0|~281~1
+LC22 -> - - - - - - - - - * - - - - * | - * | <-- |dec3_8:s0|~282~1
+LC32 -> - - - - - - - - - - * - - * - | - * | <-- |dec3_8:s0|~286~1
+LC23 -> - - - - - - - - - - - * - - * | - * | <-- |dec3_8:s0|~287~1
+LC24 -> - - - - - - - - - - - - * * - | - * | <-- |dec3_8:s0|~288~1
+LC26 -> * - - - - - - - - - - - - - - | - * | <-- |dec3_8:s0|~289~1
+LC27 -> - * - - - - - - - - - - - - - | - * | <-- |dec3_8:s0|~290~1
+LC17 -> - - - - - * - - - - - - - - - | - * | <-- |dec3_8:s0|~294~1
+LC18 -> - - - - - - * - - - - - - - - | - * | <-- |dec3_8:s0|~295~1
+LC19 -> - - - - - - - * - - - - - - * | - * | <-- |dec3_8:s0|~296~1
+
+Pin
+4    -> * * * * * * * * * * * * * * * | * * | <-- en
+7    -> * * * * * * * * - - - - - - - | - * | <-- x
+6    -> * * * * * * * * - - - - - - - | - * | <-- y
+5    -> * * * * * * * * - - - - - - - | - * | <-- z
+LC7  -> - - * - - - - - - - - - - - - | - * | <-- |dec3_8:s0|~291~1
+LC6  -> - - - * - - - - - - - - - - - | - * | <-- |dec3_8:s0|~292~1
+LC4  -> - - - - * - - - - - - - - - - | - * | <-- |dec3_8:s0|~293~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:              c:\student\cse_b_b1_17\week_9\q2.rpt
+q2
+
+** EQUATIONS **
+
+en       : INPUT;
+x        : INPUT;
+y        : INPUT;
+z        : INPUT;
+
+-- Node name is 'f1' 
+-- Equation name is 'f1', location is LC020, type is output.
+ f1      = LCELL( _EQ001 $  en);
+  _EQ001 =  en & !_LC024 & !_LC031 & !_LC032;
+
+-- Node name is 'f2' 
+-- Equation name is 'f2', location is LC005, type is output.
+ f2      = LCELL( _EQ002 $  en);
+  _EQ002 =  en & !_LC025 & !_LC029 & !_LC030;
+
+-- Node name is 'f3' 
+-- Equation name is 'f3', location is LC021, type is output.
+ f3      = LCELL( _EQ003 $  VCC);
+  _EQ003 = !_LC019 & !_LC022 & !_LC023
+         # !en & !_LC019;
+
+-- Node name is '|dec3_8:s0|~281~1' 
+-- Equation name is '_LC031', type is buried 
+-- synthesized logic cell 
+_LC031   = LCELL( _EQ004 $  GND);
+  _EQ004 =  en & !x & !y & !z
+         # !en &  _LC026;
+
+-- Node name is '|dec3_8:s0|~282~1' 
+-- Equation name is '_LC022', type is buried 
+-- synthesized logic cell 
+_LC022   = LCELL( _EQ005 $  GND);
+  _EQ005 =  en & !x & !y &  z
+         # !en &  _LC027;
+
+-- Node name is '|dec3_8:s0|~283~1' 
+-- Equation name is '_LC025', type is buried 
+-- synthesized logic cell 
+_LC025   = LCELL( _EQ006 $  GND);
+  _EQ006 =  en & !x &  y & !z
+         # !en &  _LC007;
+
+-- Node name is '|dec3_8:s0|~284~1' 
+-- Equation name is '_LC029', type is buried 
+-- synthesized logic cell 
+_LC029   = LCELL( _EQ007 $  GND);
+  _EQ007 =  en & !x &  y &  z
+         # !en &  _LC006;
+
+-- Node name is '|dec3_8:s0|~285~1' 
+-- Equation name is '_LC030', type is buried 
+-- synthesized logic cell 
+_LC030   = LCELL( _EQ008 $  GND);
+  _EQ008 =  en &  x & !y & !z
+         # !en &  _LC004;
+
+-- Node name is '|dec3_8:s0|~286~1' 
+-- Equation name is '_LC032', type is buried 
+-- synthesized logic cell 
+_LC032   = LCELL( _EQ009 $  GND);
+  _EQ009 =  en &  x & !y &  z
+         # !en &  _LC017;
+
+-- Node name is '|dec3_8:s0|~287~1' 
+-- Equation name is '_LC023', type is buried 
+-- synthesized logic cell 
+_LC023   = LCELL( _EQ010 $  GND);
+  _EQ010 =  en &  x &  y & !z
+         # !en &  _LC018;
+
+-- Node name is '|dec3_8:s0|~288~1' 
+-- Equation name is '_LC024', type is buried 
+-- synthesized logic cell 
+_LC024   = LCELL( _EQ011 $  GND);
+  _EQ011 =  en &  x &  y &  z
+         # !en &  _LC019;
+
+-- Node name is '|dec3_8:s0|~289~1' 
+-- Equation name is '_LC026', type is buried 
+-- synthesized logic cell 
+_LC026   = LCELL( _EQ012 $  GND);
+  _EQ012 =  en &  _LC031;
+
+-- Node name is '|dec3_8:s0|~290~1' 
+-- Equation name is '_LC027', type is buried 
+-- synthesized logic cell 
+_LC027   = LCELL( _EQ013 $  GND);
+  _EQ013 =  en &  _LC022;
+
+-- Node name is '|dec3_8:s0|~291~1' 
+-- Equation name is '_LC007', type is buried 
+-- synthesized logic cell 
+_LC007   = LCELL( _EQ014 $  GND);
+  _EQ014 =  en &  _LC025;
+
+-- Node name is '|dec3_8:s0|~292~1' 
+-- Equation name is '_LC006', type is buried 
+-- synthesized logic cell 
+_LC006   = LCELL( _EQ015 $  GND);
+  _EQ015 =  en &  _LC029;
+
+-- Node name is '|dec3_8:s0|~293~1' 
+-- Equation name is '_LC004', type is buried 
+-- synthesized logic cell 
+_LC004   = LCELL( _EQ016 $  GND);
+  _EQ016 =  en &  _LC030;
+
+-- Node name is '|dec3_8:s0|~294~1' 
+-- Equation name is '_LC017', type is buried 
+-- synthesized logic cell 
+_LC017   = LCELL( _EQ017 $  GND);
+  _EQ017 =  en &  _LC032;
+
+-- Node name is '|dec3_8:s0|~295~1' 
+-- Equation name is '_LC018', type is buried 
+-- synthesized logic cell 
+_LC018   = LCELL( _EQ018 $  GND);
+  _EQ018 =  en &  _LC023;
+
+-- Node name is '|dec3_8:s0|~296~1' 
+-- Equation name is '_LC019', type is buried 
+-- synthesized logic cell 
+_LC019   = LCELL( _EQ019 $  GND);
+  _EQ019 =  en &  _LC024;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--     (none)
+
+
+
+
+Project Information                       c:\student\cse_b_b1_17\week_9\q2.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = on
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:01
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 3,567K

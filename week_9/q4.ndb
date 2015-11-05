@@ -1,0 +1,88 @@
+NDB006
+The number of symbol table entries is: 2
+The length of the symbol table is: 29
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|dec2to4:level|
+
+The number of name info structs is : 75
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	10	0	:10	x
+#	IeEA	!	10	0	:11	y
+$	IeEA	!	10	0	:12	z
+%	IeEA	!	11	0	:13	{
+&	IeEA	!	11	0	:14	|
+'	IeEA	!	11	0	:15	}
+(	IeEA	!	11	0	:16	~
+)	IeEA	!	11	0	:17	"!
+*	IeEA	!	12	0	:18	""
++	IeEA	!	12	0	:19	"#
+,	IeEA	!	12	0	:20	"$
+-	IeEA	!	12	0	:21	"%
+.	IeEA	!	12	0	:22	"&
+/	IeEA	!	13	0	:23	"'
+0	IeEA	!	13	0	:24	"(
+1	IeEA	!	13	0	:25	")
+2	IeEA	!	13	0	:26	"*
+3	IeEA	!	13	0	:27	"+
+4	IeEA	!	14	0	:28	",
+5	IeEA	!	14	0	:29	"-
+6	IeEA	!	14	0	:30	".
+7	IeEA	!	14	0	:31	"/
+8	IeEA	!	10	0	:8	v
+9	IeEA	!	10	0	:9	w
+:	IeE[	!	4	0	f	u
+;	"?%_n	!	3	0	1	:	s0	!	s0	t
+<	"?%_n	!	3	0	1	:	s1	!	s1	s
+=	"?%_n	!	2	0	1	:	x0	!	x0	r
+>	"?%_n	!	2	0	1	:	x1	!	x1	q
+?	"?%_n	!	2	0	1	:	x2	!	x2	p
+@	"?%_n	!	2	0	1	:	x3	!	x3	o
+A	IeEA	.	26	0	:10	"H
+B	IeEA	.	26	0	:11	"I
+C	IeEA	.	26	0	:12	"J
+D	IeEA	.	26	0	:13	"K
+E	IeEA	.	26	0	:14	"L
+F	IeEA	.	26	0	:15	"M
+G	IeEA	.	27	0	:16	"N
+H	IeEA	.	27	0	:17	"O
+I	IeEA	.	27	0	:18	"P
+J	IeEA	.	27	0	:19	"Q
+K	IeEA	.	27	0	:20	"R
+L	IeEA	.	27	0	:21	"S
+M	IeEA	.	27	0	:22	"T
+N	IeEA	.	27	0	:23	"U
+O	IeEA	.	28	0	:24	"V
+P	IeEA	.	28	0	:25	"W
+Q	IeEA	.	28	0	:26	"X
+R	IeEA	.	28	0	:27	"Y
+S	IeEA	.	28	0	:28	"Z
+T	IeEA	.	28	0	:29	"[
+U	IeEA	.	28	0	:30	"\
+V	IeEA	.	28	0	:31	"]
+W	IeEA	.	29	0	:32	"^
+X	IeEA	.	29	0	:33	"_
+Y	IeEA	.	29	0	:34	"`
+Z	IeEA	.	29	0	:35	"a
+[	IeEA	.	29	0	:36	"b
+\	IeEA	.	29	0	:37	"c
+]	IeEA	.	29	0	:38	"d
+^	IeEA	.	29	0	:39	"e
+_	IeEA	.	26	0	:40	"f
+`	IeEA	.	26	0	:41	"g
+a	IeEA	.	26	0	:42	"h
+b	IeEA	.	30	0	:43	"i
+c	IeEA	.	30	0	:44	"j
+d	IeEA	.	30	0	:45	"k
+e	IeEA	.	30	0	:46	"l
+f	IeEA	.	30	0	:47	"m
+g	IeEA	.	30	0	:48	"n
+h	IeEA	.	30	0	:49	"o
+i	IeEA	.	30	0	:50	"p
+j	IeEA	.	30	0	:51	"q
+k	IeEA	.	26	0	:8	"F
+l	IeEA	.	26	0	:9	"G
